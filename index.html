@@ -5,21 +5,26 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Astronomy Image of de Day</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
-		<h1>Which Pokemon?</h1>
-		<input type="text" name="" value="">
-		<button type="button" name="button">Get Pokemon</button>
-
-		<h2>Name?</h2>
-		<img src="img/pokemon.jpeg" alt="">
-		<h3>Type?</h3>
+		<h1>Astronomy Picture of de Day</h1>
+		<section class="option">
+			<input type="date" name="" value="">
+			<button type="button" name="button">View Image</button>
+			<h2>Title</h2>
+			<img class="visualElement" id="image" src="" alt="">
+			<iframe class="visualElement" id="video"  src="" frameborder="0"></iframe>
+			<h3 id="copyright">Copyright</h3>
+			<h3 id="datePub">Date</h3>
+			<h3 id="explanation">Explanation</h3>
+			<p>Explanation</p>
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
